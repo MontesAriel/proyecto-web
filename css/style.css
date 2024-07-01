@@ -399,6 +399,34 @@ h3 {
     min-height: 100vh 
 }
 
+.carousel-inner-package {
+    max-height: 500px;
+   
+}
+
+.carousel-package .carousel-inner {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.carousel-package .carousel-item {
+    height: 500px;
+}
+
+.carousel-package .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-package .carousel-item,
+    .carousel-package .carousel-item img {
+        height: auto;
+        max-height: 700px;
+    }
+}
+
 .carousel-header .carousel-inner .carousel-item img {
     position: absolute;
     width: 100%;
